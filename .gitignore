@@ -31,9 +31,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-# Large asset files (will be deployed with Vercel)
-/public/assets/videos/*.mp4
-/public/assets/images/*.jpg
-/public/assets/images/*.png
-/public/assets/images/cert-*.jpg
