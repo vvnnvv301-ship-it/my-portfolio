@@ -31,3 +31,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Large video file (too big for GitHub without LFS)
+/public/assets/videos/*.mp4
