@@ -1,0 +1,30 @@
+"use client"
+
+import { motion } from "framer-motion"
+
+export function Summary() {
+    return (
+        <section id="summary" className="py-24 bg-background relative">
+            <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <motion.div
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    className="text-center"
+                >
+                    <h2 className="text-3xl md:text-4xl font-bold mb-4">
+                        Professional Xulosa
+                    </h2>
+                    <p className="text-muted-foreground mb-8">
+                        Kelajakni shakllantirish uchun AI va texnologiya innovatsiyalari.
+                    </p>
+                    <p className="text-lg leading-relaxed text-foreground/90">
+                        "Aniq ko'rish bilan hamma narsa mumkin" deb ishonuvchi yuqori motivatsiyali Dasturchi va AI Mutaxassisi. Qishloq xo'jaligi sohasidagi akademik ta'lim va mijozlarga xizmat ko'rsatish sohasidagi qimmatli professional tajribani Generative AI, Advanced Prompt Engineering va Raqamli Media Ishlab Chiqarish bo'yicha maxsus texnik ko'nikmalar bilan birlashtiradi.
+                        <br /><br />
+                        O'zbekistonning yetakchi IT akademiyasi Najot Ta'lim bitiruvchisi, Prompt Engineering bo'yicha maxsus ta'limga ega. Murakkab muammolarni hal qilish va kengaytiriladigan kontent yaratish uchun noyob tizim promptlaridan foydalangan holda AI botlarni loyihalash va joylashtirish bo'yicha malakali. Smart AI Studio'ni ishga tushirish orqali tadbirkorlik fikrlash tarzini namoyish etdi. Haqiqiy dunyo muammolarini hal qiladigan yuqori darajadagi AI Mutaxassisiga aylanishga sodiq.
+                    </p>
+                </motion.div>
+            </div>
+        </section>
+    )
+}

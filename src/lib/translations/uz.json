@@ -1,0 +1,137 @@
+{
+    "nav": {
+        "home": "Bosh sahifa",
+        "experience": "Tajriba",
+        "projects": "Loyihalar",
+        "certificates": "Sertifikatlar",
+        "contact": "Bog'lanish"
+    },
+    "hero": {
+        "badge": "AI Specialist & Digital Producer",
+        "motto": "Aniq ko'rish bilan hamma narsa mumkin",
+        "viewProjects": "Loyihalarimni Ko'rish",
+        "contactMe": "Bog'lanish"
+    },
+    "summary": {
+        "title": "Professional Xulosa",
+        "subtitle": "Kelajakni shakllantirish uchun AI va texnologiya innovatsiyalari.",
+        "content": "Generative AI, Advanced Prompt Engineering va AI System Design bo'yicha tajribaga ega AI mutaxassisi. Najot Ta'lim AI dasturini tamomlagan, kengaytiriladigan AI-driven kontent platformalarini va maxsus AI yechimlarini yaratishda kuchli ko'nikmalarga ega. 3D animatsiya va raqamli media ishlab chiqarishda tajribali, texnik AI imkoniyatlarini ijodiy ishlab chiqarish ish oqimlari bilan birlashtiradi."
+    },
+    "skills": {
+        "title": "Texnik Ko'nikmalar",
+        "subtitle": "AI, Machine Learning, Dasturlash va Raqamli Media sohasidagi professional ko'nikmalarim.",
+        "ai": {
+            "name": "Sun'iy Intellekt",
+            "desc": "Generative AI, Advanced Prompt Engineering, AI System Design, AI Bot Development"
+        },
+        "ml": {
+            "name": "Tez Moslashuv",
+            "desc": "Tez O'rganuvchi, Yangi Modellarni Qabul Qiluvchi, Moslashuvchan"
+        },
+        "programming": {
+            "name": "Dasturlash",
+            "desc": "Vibe Coder"
+        },
+        "data": {
+            "name": "Ma'lumotlar Tahlili",
+            "desc": "MySQL for Data Analytics, Data Visualization"
+        },
+        "media": {
+            "name": "Raqamli Media",
+            "desc": "2D/3D Animation, Cartoon & Movie Production, Visual Storytelling"
+        },
+        "languages": {
+            "name": "Tillar",
+            "desc": "O'zbek (Ona tili), Ingliz (Professional), Rus (Boshlang'ich)"
+        },
+        "soft": {
+            "name": "Yumshoq Ko'nikmalar",
+            "desc": "Madaniyatlararo Muloqot, Murakkab Muammolarni Hal Qilish, Mijozlar bilan Munosabatlar"
+        },
+        "tools": {
+            "name": "Texnik Vositalar",
+            "desc": "OpenAI GPT, Gemini, Midjourney, Stable Diffusion, Git, VS Code"
+        }
+    },
+    "experience": {
+        "title": "Ish Tajribasi",
+        "subtitle": "Professional sayohat va asosiy yutuqlar.",
+        "ritz": {
+            "title": "Ritz-Carlton & Red Sea Projects",
+            "period": "2020 - 2023",
+            "location": "Saudiya Arabistoni",
+            "desc": "Saudiya Arabistonida hashamatli mehmonxona va yirik rivojlantirish loyihalarida ishladim. Madaniyatlararo muloqot ko'nikmalarini rivojlantirdim va yuqori bosim muhitida murakkab mijoz munosabatlarini boshqardim."
+        }
+    },
+    "projects": {
+        "title": "Asosiy Loyihalar",
+        "subtitle": "AI va raqamli media sohasidagi professional loyihalarim va ijodiy ishlarim.",
+        "ecojon": {
+            "title": "\"Ecojon\" – 3D Ekologik Animatsiya",
+            "category": "3D Animation & Digital Media",
+            "desc": "Ekologik inqirozlarni hal qilish va sayyorani qutqarishga bag'ishlangan qahramon xarakter \"Ecojon\" ishtirokidagi 3D animatsion seriyani kontseptsiyalashtirdim va ishlab chiqdim. To'liq 3D ishlab chiqarish konveyerini boshqardim, jumladan xarakter dizayni, rigging, animatsiya va rendering. Ekologik barqarorlik (Eco-Tech) haqida xabardorlikni oshirish uchun vizual hikoya qilishdan foydalandim.",
+            "tags": [
+                "3D Animation",
+                "Character Design",
+                "Environmental Storytelling"
+            ]
+        },
+        "smartai": {
+            "title": "Smart AI Studio – AI-Powered Content Platform",
+            "category": "AI & Web Development",
+            "desc": "AI-driven kontent yaratishga ixtisoslashgan jonli veb-ilovani ishlab chiqdim va hozirda qo'llab-quvvatlayman. Bir nechta domenlarda kengaytiriladigan kontent yaratish va muammolarni hal qilish uchun maxsus tizim promptlaridan foydalangan holda murakkab AI yechimlarini yaratdim. Texnik AI imkoniyatlarini ijodiy ishlab chiqarish ish oqimlari bilan bog'laydigan foydalanuvchilarga qulay interfeyslarni loyihalashtirdim.",
+            "tags": [
+                "Next.js",
+                "AI System Design",
+                "Vercel",
+                "Custom Prompts"
+            ]
+        }
+    },
+    "education": {
+        "title": "Ta'lim va Sertifikatlar",
+        "subtitle": "Akademik ma'lumot va professional sertifikatlar.",
+        "university": {
+            "degree": "Xalqaro Iqtisodiyot va Savdo bo'yicha Bakalavr",
+            "school": "Xalqaro Qishloq Xo'jaligi Universiteti",
+            "period": "2019 - 2023",
+            "location": "Toshkent, O'zbekiston"
+        },
+        "najot": {
+            "degree": "AI Mutaxassis Dasturi",
+            "school": "Najot Ta'lim",
+            "period": "2024",
+            "location": "Toshkent, O'zbekiston",
+            "desc": "Generative AI, Prompt Engineering, Machine Learning asoslari va AI tizim dizaynini o'z ichiga olgan keng qamrovli AI ta'limi."
+        },
+        "certifications": "Sertifikatlar va Mukofotlar",
+        "viewCert": "Sertifikatni Ko'rish"
+    },
+    "certificates": {
+        "title": "Sertifikatlar va Mukofotlar",
+        "subtitle": "Professional rivojlanish va yutuqlarimni tasdiqlovchi rasmiy sertifikatlar.",
+        "more": "Ko'proq sertifikatlar tez orada..."
+    },
+    "contact": {
+        "title": "Men Bilan Bog'laning",
+        "subtitle": "Loyiha yoki hamkorlik bo'yicha savollaringiz bormi? Quyidagi ma'lumotlar orqali bog'lanishingiz mumkin.",
+        "phone": "Telefon",
+        "email": "Email",
+        "form": {
+            "name": "Ism",
+            "namePlaceholder": "Ismingiz",
+            "email": "Email",
+            "emailPlaceholder": "email@example.com",
+            "message": "Xabar",
+            "messagePlaceholder": "Xabaringizni yozing...",
+            "send": "Yuborish",
+            "sending": "Yuborilmoqda...",
+            "success": "✓ Xabaringiz muvaffaqiyatli yuborildi! Tez orada javob beramiz.",
+            "error": "✗ Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring."
+        }
+    },
+    "footer": {
+        "rights": "Barcha huquqlar himoyalangan.",
+        "builtWith": "Next.js, Tailwind CSS va Framer Motion yordamida yaratilgan"
+    }
+}

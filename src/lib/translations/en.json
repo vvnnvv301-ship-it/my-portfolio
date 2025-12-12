@@ -1,0 +1,137 @@
+{
+    "nav": {
+        "home": "Home",
+        "experience": "Experience",
+        "projects": "Projects",
+        "certificates": "Certificates",
+        "contact": "Contact"
+    },
+    "hero": {
+        "badge": "AI Specialist & Digital Producer",
+        "motto": "With clear vision, everything is possible",
+        "viewProjects": "View My Projects",
+        "contactMe": "Contact Me"
+    },
+    "summary": {
+        "title": "Professional Summary",
+        "subtitle": "AI and technology innovations to shape the future.",
+        "content": "AI specialist with expertise in Generative AI, Advanced Prompt Engineering, and AI System Design. Graduated from Najot Ta'lim's AI program with strong skills in creating scalable AI-driven content platforms and custom AI solutions. Experienced in 3D animation and digital media production, combining technical AI capabilities with creative production workflows."
+    },
+    "skills": {
+        "title": "Technical Skills",
+        "subtitle": "Professional skills in AI, Machine Learning, Programming, and Digital Media.",
+        "ai": {
+            "name": "Artificial Intelligence",
+            "desc": "Generative AI, Advanced Prompt Engineering, AI System Design, AI Bot Development"
+        },
+        "ml": {
+            "name": "Quick Adaptation",
+            "desc": "Fast Learner, Adapts to New Models, Flexible"
+        },
+        "programming": {
+            "name": "Programming",
+            "desc": "Vibe Coder"
+        },
+        "data": {
+            "name": "Data Analysis",
+            "desc": "MySQL for Data Analytics, Data Visualization"
+        },
+        "media": {
+            "name": "Digital Media",
+            "desc": "2D/3D Animation, Cartoon & Movie Production, Visual Storytelling"
+        },
+        "languages": {
+            "name": "Languages",
+            "desc": "Uzbek (Native), English (Professional), Russian (Basic)"
+        },
+        "soft": {
+            "name": "Soft Skills",
+            "desc": "Cross-Cultural Communication, Complex Problem Solving, Client Relations"
+        },
+        "tools": {
+            "name": "Technical Tools",
+            "desc": "OpenAI GPT, Gemini, Midjourney, Stable Diffusion, Git, VS Code"
+        }
+    },
+    "experience": {
+        "title": "Work Experience",
+        "subtitle": "Professional journey and key achievements.",
+        "ritz": {
+            "title": "Ritz-Carlton & Red Sea Projects",
+            "period": "2020 - 2023",
+            "location": "Saudi Arabia",
+            "desc": "Worked in luxury hospitality and large-scale development projects in Saudi Arabia. Developed cross-cultural communication skills and managed complex client relationships in high-pressure environments."
+        }
+    },
+    "projects": {
+        "title": "Key Projects",
+        "subtitle": "Professional projects and creative works in AI and digital media.",
+        "ecojon": {
+            "title": "\"Ecojon\" – 3D Ecological Animation",
+            "category": "3D Animation & Digital Media",
+            "desc": "Conceptualized and developed a 3D animation series featuring the hero character \"Ecojon\" dedicated to solving ecological crises and saving the planet. Managed the full 3D production pipeline including character design, rigging, animation, and rendering. Used visual storytelling to raise awareness about environmental sustainability (Eco-Tech).",
+            "tags": [
+                "3D Animation",
+                "Character Design",
+                "Environmental Storytelling"
+            ]
+        },
+        "smartai": {
+            "title": "Smart AI Studio – AI-Powered Content Platform",
+            "category": "AI & Web Development",
+            "desc": "Developed and currently maintain a live web application specialized in AI-driven content creation. Created complex AI solutions using custom system prompts for scalable content creation and problem-solving across multiple domains. Designed user-friendly interfaces that bridge technical AI capabilities with creative production workflows.",
+            "tags": [
+                "Next.js",
+                "AI System Design",
+                "Vercel",
+                "Custom Prompts"
+            ]
+        }
+    },
+    "education": {
+        "title": "Education & Certifications",
+        "subtitle": "Academic background and professional certifications.",
+        "university": {
+            "degree": "Bachelor's Degree in International Economics and Trade",
+            "school": "International Agriculture University",
+            "period": "2019 - 2023",
+            "location": "Tashkent, Uzbekistan"
+        },
+        "najot": {
+            "degree": "AI Specialist Program",
+            "school": "Najot Ta'lim",
+            "period": "2024",
+            "location": "Tashkent, Uzbekistan",
+            "desc": "Comprehensive AI training covering Generative AI, Prompt Engineering, Machine Learning fundamentals, and AI system design."
+        },
+        "certifications": "Certifications & Awards",
+        "viewCert": "View Certificate"
+    },
+    "certificates": {
+        "title": "Certificates & Awards",
+        "subtitle": "Official certificates confirming professional development and achievements.",
+        "more": "More certificates coming soon..."
+    },
+    "contact": {
+        "title": "Contact Me",
+        "subtitle": "Have questions about projects or collaboration? You can reach me through the following information.",
+        "phone": "Phone",
+        "email": "Email",
+        "form": {
+            "name": "Name",
+            "namePlaceholder": "Your Name",
+            "email": "Email",
+            "emailPlaceholder": "email@example.com",
+            "message": "Message",
+            "messagePlaceholder": "Write your message...",
+            "send": "Send",
+            "sending": "Sending...",
+            "success": "✓ Your message was sent successfully! We will respond soon.",
+            "error": "✗ An error occurred. Please try again."
+        }
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "builtWith": "Built with Next.js, Tailwind CSS, and Framer Motion"
+    }
+}
