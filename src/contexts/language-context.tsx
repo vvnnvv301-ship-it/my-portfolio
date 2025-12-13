@@ -4,17 +4,20 @@ import React, { createContext, useContext, useState, useEffect } from 'react'
 
 type Language = 'en' | 'uz' | 'ru'
 
+// Define a recursive type for translations
+type TranslationValue = string | { [key: string]: TranslationValue }
+
 interface LanguageContextType {
     language: Language
     setLanguage: (lang: Language) => void
-    t: (key: string) => any
+    t: (key: string) => TranslationValue
 }
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
     const [language, setLanguageState] = useState<Language>('uz')
-    const [translations, setTranslations] = useState<any>({})
+    const [translations, setTranslations] = useState<Record<string, TranslationValue>>({})
 
     useEffect(() => {
         // Load saved language from localStorage
@@ -36,12 +39,16 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
         localStorage.setItem('language', lang)
     }
 
-    const t = (key: string): any => {
+    const t = (key: string): TranslationValue => {
         const keys = key.split('.')
-        let value = translations
+        let value: TranslationValue = translations
 
         for (const k of keys) {
-            value = value?.[k]
+            if (typeof value === 'object' && value !== null && k in value) {
+                value = value[k]
+            } else {
+                return key
+            }
         }
 
         return value || key

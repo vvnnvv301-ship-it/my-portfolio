@@ -40,10 +40,10 @@ export function Skills() {
                         viewport={{ once: true }}
                         className="text-3xl md:text-4xl font-bold mb-4"
                     >
-                        Texnik Ko'nikmalar
+                        Texnik Ko&apos;nikmalar
                     </motion.h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto">
-                        AI, Machine Learning, Dasturlash va Raqamli Media sohasidagi professional ko'nikmalarim.
+                        AI, Machine Learning, Dasturlash va Raqamli Media sohasidagi professional ko&apos;nikmalarim.
                     </p>
                 </div>
 

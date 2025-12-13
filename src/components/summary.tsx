@@ -19,9 +19,9 @@ export function Summary() {
                         Kelajakni shakllantirish uchun AI va texnologiya innovatsiyalari.
                     </p>
                     <p className="text-lg leading-relaxed text-foreground/90">
-                        "Aniq ko'rish bilan hamma narsa mumkin" deb ishonuvchi yuqori motivatsiyali Dasturchi va AI Mutaxassisi. Qishloq xo'jaligi sohasidagi akademik ta'lim va mijozlarga xizmat ko'rsatish sohasidagi qimmatli professional tajribani Generative AI, Advanced Prompt Engineering va Raqamli Media Ishlab Chiqarish bo'yicha maxsus texnik ko'nikmalar bilan birlashtiradi.
+                        &quot;Aniq ko&apos;rish bilan hamma narsa mumkin&quot; deb ishonuvchi yuqori motivatsiyali Dasturchi va AI Mutaxassisi. Qishloq xo&apos;jaligi sohasidagi akademik ta&apos;lim va mijozlarga xizmat ko&apos;rsatish sohasidagi qimmatli professional tajribani Generative AI, Advanced Prompt Engineering va Raqamli Media Ishlab Chiqarish bo&apos;yicha maxsus texnik ko&apos;nikmalar bilan birlashtiradi.
                         <br /><br />
-                        O'zbekistonning yetakchi IT akademiyasi Najot Ta'lim bitiruvchisi, Prompt Engineering bo'yicha maxsus ta'limga ega. Murakkab muammolarni hal qilish va kengaytiriladigan kontent yaratish uchun noyob tizim promptlaridan foydalangan holda AI botlarni loyihalash va joylashtirish bo'yicha malakali. Smart AI Studio'ni ishga tushirish orqali tadbirkorlik fikrlash tarzini namoyish etdi. Haqiqiy dunyo muammolarini hal qiladigan yuqori darajadagi AI Mutaxassisiga aylanishga sodiq.
+                        O&apos;zbekistonning yetakchi IT akademiyasi Najot Ta&apos;lim bitiruvchisi, Prompt Engineering bo&apos;yicha maxsus ta&apos;limga ega. Murakkab muammolarni hal qilish va kengaytiriladigan kontent yaratish uchun noyob tizim promptlaridan foydalangan holda AI botlarni loyihalash va joylashtirish bo&apos;yicha malakali. Smart AI Studio&apos;ni ishga tushirish orqali tadbirkorlik fikrlash tarzini namoyish etdi. Haqiqiy dunyo muammolarini hal qiladigan yuqori darajadagi AI Mutaxassisiga aylanishga sodiq.
                     </p>
                 </motion.div>
             </div>

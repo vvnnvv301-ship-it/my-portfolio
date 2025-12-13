@@ -82,7 +82,7 @@ export function Hero() {
                     transition={{ duration: 0.5, delay: 1.5 }}
                     className="text-xl md:text-2xl font-light text-muted-foreground mb-8 text-balance max-w-3xl mx-auto"
                 >
-                    "Aniq ko'rish bilan hamma narsa mumkin"
+                    &quot;Aniq ko&apos;rish bilan hamma narsa mumkin&quot;
                 </motion.h2>
 
                 {/* Buttons */}
@@ -93,10 +93,10 @@ export function Hero() {
                     className="flex flex-col sm:flex-row gap-4 justify-center items-center"
                 >
                     <a href="#projects" className="px-8 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:opacity-90 transition shadow-lg shadow-primary/20">
-                        Loyihalarimni Ko'rish
+                        Loyihalarimni Ko&apos;rish
                     </a>
                     <a href="#contact" className="px-8 py-3 rounded-full border border-input bg-background/50 backdrop-blur-sm hover:bg-accent hover:text-accent-foreground transition">
-                        Bog'lanish
+                        Bog&apos;lanish
                     </a>
                 </motion.div>
             </div>

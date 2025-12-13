@@ -52,10 +52,10 @@ export function Contact() {
                         viewport={{ once: true }}
                         className="text-3xl md:text-4xl font-bold mb-4"
                     >
-                        Men Bilan Bog'laning
+                        Men Bilan Bog&apos;laning
                     </motion.h2>
                     <p className="text-muted-foreground max-w-2xl mx-auto">
-                        Loyiha yoki hamkorlik bo'yicha savollaringiz bormi? Quyidagi ma'lumotlar orqali bog'lanishingiz mumkin.
+                        Loyiha yoki hamkorlik bo&apos;yicha savollaringiz bormi? Quyidagi ma&apos;lumotlar orqali bog&apos;lanishingiz mumkin.
                     </p>
                 </div>
 
@@ -157,7 +157,7 @@ export function Contact() {
                             )}
                             {status === 'error' && (
                                 <div className="p-4 rounded-xl bg-red-500/10 border border-red-500/20 text-red-600 dark:text-red-400 text-sm">
-                                    ✗ Xatolik yuz berdi. Iltimos, qaytadan urinib ko'ring.
+                                    ✗ Xatolik yuz berdi. Iltimos, qaytadan urinib ko&apos;ring.
                                 </div>
                             )}
 

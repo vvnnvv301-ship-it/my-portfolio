@@ -76,13 +76,13 @@ export function Certificates() {
                     className="text-center mt-12"
                 >
                     <p className="text-muted-foreground italic text-lg">
-                        Ko'proq sertifikatlar tez orada...
+                        Ko&apos;proq sertifikatlar tez orada...
                     </p>
                 </motion.div>
 
                 {/* Lightbox Modal */}
                 {selectedCert && (
-                    <div 
+                    <div
                         className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
                         onClick={() => setSelectedCert(null)}
                     >

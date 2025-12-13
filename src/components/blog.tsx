@@ -35,7 +35,7 @@ export function Blog() {
                         viewport={{ once: true }}
                         className="text-3xl md:text-4xl font-bold mb-4"
                     >
-                        So'nggi Maqolalar
+                        So&apos;nggi Maqolalar
                     </motion.h2>
                     <p className="text-muted-foreground">AI va texnologiya olamidagi yangiliklar.</p>
                 </div>
@@ -59,7 +59,7 @@ export function Blog() {
                                 <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition">{post.title}</h3>
                                 <p className="text-muted-foreground text-sm mb-4">{post.excerpt}</p>
                                 <a href="#" className="inline-flex items-center text-sm font-medium text-primary hover:gap-2 transition-all">
-                                    O'qish <ArrowRight className="w-4 h-4 ml-1" />
+                                    O&apos;qish <ArrowRight className="w-4 h-4 ml-1" />
                                 </a>
                             </div>
                         </motion.div>

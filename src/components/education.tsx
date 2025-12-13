@@ -42,7 +42,7 @@ export function Education() {
                             <div className="p-3 rounded-xl bg-orange-500/10 text-orange-500">
                                 <GraduationCap className="w-8 h-8" />
                             </div>
-                            <h2 className="text-3xl font-bold">Ta'lim</h2>
+                            <h2 className="text-3xl font-bold">Ta&apos;lim</h2>
                         </div>
                         <div className="space-y-8">
                             {education.map((edu, idx) => (
@@ -83,7 +83,7 @@ export function Education() {
                         <div className="mt-12 p-6 rounded-2xl bg-gradient-to-r from-primary/20 to-purple-500/20 glass border border-primary/20 flex flex-col sm:flex-row items-center justify-between gap-4">
                             <div>
                                 <h3 className="text-lg font-bold">Rezyumeni yuklab olish</h3>
-                                <p className="text-sm text-muted-foreground">Batafsil ma'lumot uchun PDF variantni ko'ring.</p>
+                                <p className="text-sm text-muted-foreground">Batafsil ma&apos;lumot uchun PDF variantni ko&apos;ring.</p>
                             </div>
                             <a href="/assets/docs/resume-en.pdf" download className="px-6 py-3 rounded-xl bg-primary text-white font-medium hover:opacity-90 transition flex items-center gap-2 shadow-lg shadow-primary/25">
                                 <Download className="w-5 h-5" />
