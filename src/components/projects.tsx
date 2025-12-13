@@ -10,7 +10,7 @@ const projects = [
         title: "\"Ecojon\" – 3D Ekologik Animatsiya",
         category: "3D Animation & Digital Media",
         description: "Ekologik inqirozlarni hal qilish va sayyorani qutqarishga bag'ishlangan qahramon xarakter \"Ecojon\" ishtirokidagi 3D animatsion seriyani kontseptsiyalashtirdim va ishlab chiqdim. To'liq 3D ishlab chiqarish konveyerini boshqardim, jumladan xarakter dizayni, rigging, animatsiya va rendering. Ekologik barqarorlik (Eco-Tech) haqida xabardorlikni oshirish uchun vizual hikoya qilishdan foydalandim.",
-        video: "/assets/videos/ecojon-animation.mp4",
+        vimeoId: "1146094986",
         tags: ["3D Animation", "Character Design", "Environmental Storytelling"],
         hasVideo: true
     },
@@ -69,15 +69,12 @@ export function Projects() {
                                 <div className="relative h-64 overflow-hidden">
                                     {project.hasVideo ? (
                                         <div className="relative w-full h-full">
-                                            <video
-                                                className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition duration-700"
-                                                autoPlay
-                                                loop
-                                                muted
-                                                playsInline
-                                            >
-                                                <source src={project.video} type="video/mp4" />
-                                            </video>
+                                            <Image
+                                                src={`https://vumbnail.com/${project.vimeoId}.jpg`}
+                                                alt={project.title}
+                                                fill
+                                                className="object-cover opacity-80 group-hover:opacity-100 transition duration-700"
+                                            />
                                             <div className="absolute inset-0 flex items-center justify-center bg-black/30 opacity-0 group-hover:opacity-100 transition duration-300">
                                                 <button
                                                     onClick={openVideoModal}
@@ -145,14 +142,16 @@ export function Projects() {
                     >
                         <X className="w-6 h-6" />
                     </button>
-                    <video
-                        className="w-full h-full object-contain"
-                        controls
-                        autoPlay
-                        onClick={(e) => e.stopPropagation()}
-                    >
-                        <source src={projects[0].video} type="video/mp4" />
-                    </video>
+                    <div className="relative w-full h-full flex items-center justify-center p-8">
+                        <iframe
+                            src={`https://player.vimeo.com/video/${projects[0].vimeoId}?autoplay=1`}
+                            className="w-full h-full max-w-5xl max-h-[80vh]"
+                            frameBorder="0"
+                            allow="autoplay; fullscreen; picture-in-picture"
+                            allowFullScreen
+                            onClick={(e) => e.stopPropagation()}
+                        ></iframe>
+                    </div>
                 </div>
             )}
         </>
