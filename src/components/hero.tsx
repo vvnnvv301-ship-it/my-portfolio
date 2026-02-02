@@ -56,7 +56,7 @@ export function Hero() {
                 </motion.div>
 
                 {/* Animated Name - Letter by Letter */}
-                <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/60">
+                <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/60 whitespace-nowrap">
                     {name.split("").map((char, index) => (
                         <motion.span
                             key={index}
