@@ -7,14 +7,17 @@ const education = [
     {
         school: "International Agriculture University",
         degree: "To'liq Stipendiya",
-        year: "2025 - 2029 (Kutilmoqda)",
-        desc: "Akademik mukammallik uchun 2025-2029 dasturini qamrab oluvchi to'liq stipendiya bilan taqdirlangan. Dastur to'liq ingliz tilida o'qitiladi va Buyuk Britaniyaning Royal Agricultural University tomonidan akkreditatsiya qilingan."
+        desc: "Akademik mukammallik uchun to'liq stipendiya bilan taqdirlangan. Dastur to'liq ingliz tilida o'qitiladi va Buyuk Britaniyaning Royal Agricultural University tomonidan akkreditatsiya qilingan."
     },
     {
         school: "Najot Ta'lim IT Academy",
         degree: "Advanced Prompt Engineering",
-        year: "Tamomlangan",
         desc: "O'zbekistonning eng yetakchi IT ta'lim markazlaridan birida keng qamrovli o'quv dasturini muvaffaqiyatli tamomlagan. Katta Til Modellarining (LLM) arxitekturasini, few-shot prompting va chain-of-thought fikrlashni biznes va ijodiy ilovalar uchun AI natijalarini optimallashtirish uchun o'zlashtirdim."
+    },
+    {
+        school: "JDPI Akademik Litseyi",
+        degree: "Aniq Fanlar Yo'nalishi",
+        desc: "Yuqori ball bilan tamomlangan. Matematika, ingliz tili va informatika fanlarida chuqur bilim va kuchli akademik asos olgan. Litsey davridagi yutuqlar texnologiya sohasida kelajakdagi muvaffaqiyatlar uchun mustahkam poydevor yaratdi."
     }
 ]
 
@@ -24,6 +27,8 @@ const certifications = [
     { name: "MySQL for Data Analytics", issuer: "Sertifikat" },
     { name: "AI500! Hackathon - Stage 1", issuer: "Noyabr 2025" },
     { name: "Prompt Engineering Course", issuer: "Najot Ta'lim (To'liq stipendiya)" },
+    { name: "Angel Pitch Day", issuer: "TIIAME StartUp Club & C-Space" },
+    { name: "Startup Ambassador Camp", issuer: "Yoshlar Ventures" },
 ]
 
 export function Education() {
@@ -49,7 +54,7 @@ export function Education() {
                                 <div key={idx} className="pl-4 border-l-2 border-border relative">
                                     <span className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-background border-2 border-orange-500"></span>
                                     <h3 className="text-xl font-bold">{edu.school}</h3>
-                                    <p className="text-primary font-medium text-sm mb-1">{edu.degree} | {edu.year}</p>
+                                    <p className="text-primary font-medium text-sm mb-1">{edu.degree}</p>
                                     <p className="text-muted-foreground">{edu.desc}</p>
                                 </div>
                             ))}

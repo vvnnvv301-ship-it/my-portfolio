@@ -35,9 +35,9 @@ export function Hero() {
                     transition={{ duration: 0.5 }}
                     className="mb-8 mt-16 flex justify-center"
                 >
-                    <div className="relative w-40 h-40 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl shadow-primary/20">
+                    <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-primary/20 shadow-2xl shadow-primary/20">
                         <Image
-                            src="/assets/images/profile-photo.jpg"
+                            src="/assets/images/profile-photo-new.png"
                             alt="Dilmurod Yusupov"
                             fill
                             className="object-cover"

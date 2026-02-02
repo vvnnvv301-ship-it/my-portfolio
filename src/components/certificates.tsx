@@ -12,6 +12,8 @@ const certificates = [
     { id: 4, image: "/assets/images/cert-04.jpg", title: "MySQL for Data Analytics" },
     { id: 5, image: "/assets/images/cert-05.jpg", title: "RAU Scholarship" },
     { id: 6, image: "/assets/images/cert-06.jpg", title: "Prompt Engineering" },
+    { id: 7, image: "/assets/images/cert-angel-pitch.png", title: "Angel Pitch Day" },
+    { id: 8, image: "/assets/images/cert-startup-ambassador.png", title: "Startup Ambassador Camp" },
 ]
 
 export function Certificates() {

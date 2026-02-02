@@ -1,36 +1,159 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dilmurod Yusupov - Portfolio Website
 
-## Getting Started
+Professional portfolio showcasing AI expertise, Prompt Engineering skills, and AgroTech innovation.
 
-First, run the development server:
+## 🚀 Features
+
+- ✨ Modern, responsive design with dark mode
+- 🎨 Smooth animations with Framer Motion
+- 🌐 Multi-language support (Uzbek, English, Russian)
+- 📱 PWA-ready (installable as mobile app)
+- ♿ Accessibility-focused (WCAG compliant)
+- 🔍 SEO optimized with Open Graph & Twitter Cards
+- 📧 Functional contact form with EmailJS
+- 🎖️ Interactive certificate gallery
+- 🔝 Back to top button
+- ⚡ Built with Next.js 16 & TypeScript
+
+## 📋 Setup Instructions
+
+### 1. Install Dependencies
+
+```bash
+npm install
+```
+
+### 2. Configure EmailJS (for Contact Form)
+
+1. Create a free account at [EmailJS](https://www.emailjs.com/)
+2. Create an email service (Gmail, Outlook, etc.)
+3. Create an email template with these variables:
+   - `{{from_name}}` - Sender's name
+   - `{{from_email}}` - Sender's email
+   - `{{message}}` - Message content
+   - `{{to_name}}` - Your name (Dilmurod Yusupov)
+4. Get your credentials:
+   - Public Key
+   - Service ID
+   - Template ID
+5. Update `src/components/contact.tsx`:
+   ```typescript
+   emailjs.init('YOUR_PUBLIC_KEY')
+   await emailjs.send(
+     'YOUR_SERVICE_ID',
+     'YOUR_TEMPLATE_ID',
+     { ... }
+   )
+   ```
+
+### 3. Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 16 with App Router
+- **Language:** TypeScript
+- **Styling:** TailwindCSS
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Email:** EmailJS
+- **Theme:** next-themes
+- **Deployment:** Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+my-portfolio/
+├── public/
+│   ├── assets/
+│   │   └── images/         # Images and certificates
+│   └── manifest.json       # PWA manifest
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx      # Root layout with metadata
+│   │   ├── page.tsx        # Home page
+│   │   ├── sitemap.ts      # Dynamic sitemap
+│   │   ├── robots.ts       # Robots.txt config
+│   │   └── not-found.tsx   # Custom 404 page
+│   ├── components/
+│   │   ├── hero.tsx
+│   │   ├── summary.tsx
+│   │   ├── skills.tsx
+│   │   ├── experience.tsx
+│   │   ├── projects.tsx
+│   │   ├── education.tsx
+│   │   ├── certificates.tsx
+│   │   ├── contact.tsx
+│   │   ├── footer.tsx
+│   │   ├── navbar.tsx
+│   │   ├── back-to-top.tsx
+│   │   ├── skip-to-content.tsx
+│   │   └── structured-data.tsx
+│   ├── contexts/
+│   │   └── language-context.tsx
+│   └── lib/
+│       └── translations/    # Multi-language support
+└── package.json
+```
 
-## Deploy on Vercel
+## 🎯 SEO Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✅ Comprehensive meta tags
+- ✅ Open Graph tags for social sharing
+- ✅ Twitter Card support
+- ✅ JSON-LD structured data
+- ✅ Dynamic sitemap.xml
+- ✅ Robots.txt configuration
+- ✅ Canonical URLs
+- ✅ Multi-language support
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ♿ Accessibility Features
+
+- ✅ Skip to content link
+- ✅ ARIA labels on interactive elements
+- ✅ Keyboard navigation support
+- ✅ Semantic HTML structure
+- ✅ Focus indicators
+- ✅ Screen reader friendly
+
+## 📱 PWA Features
+
+- ✅ Web app manifest
+- ✅ Theme color configuration
+- ✅ Installable on mobile devices
+- ✅ Responsive design
+
+## 📊 Performance
+
+- Fast page loads with Next.js optimization
+- Image optimization with next/image
+- Code splitting
+- Lazy loading
+- Optimized fonts
+
+## 🔗 Links
+
+- **Live Site:** https://dilmurod-yusupov.vercel.app
+- **GitHub:** https://github.com/vvnnvv301-ship-it/my-portfolio
+- **LinkedIn:** https://linkedin.com/in/dilmurod-yusupov-a921ab253
+
+## 📝 License
+
+© 2026 Dilmurod Yusupov. All rights reserved.
+
+## 🤝 Contact
+
+- **Email:** dilmurodyusupov2022@gmail.com
+- **Phone:** +998 90 643 11 03

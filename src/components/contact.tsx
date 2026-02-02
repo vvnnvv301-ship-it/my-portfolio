@@ -3,6 +3,7 @@
 import { Mail, Phone, Github, Linkedin, Send } from "lucide-react"
 import { motion } from "framer-motion"
 import { useState, FormEvent } from "react"
+import emailjs from '@emailjs/browser'
 
 export function Contact() {
     const [formData, setFormData] = useState({
@@ -19,8 +20,20 @@ export function Contact() {
         setStatus('idle')
 
         try {
-            // Simple demo mode - just show success without actually sending
-            await new Promise(resolve => setTimeout(resolve, 1500))
+            // Initialize EmailJS (replace with your actual credentials)
+            emailjs.init('YOUR_PUBLIC_KEY') // Replace with your EmailJS public key
+
+            // Send email using EmailJS
+            await emailjs.send(
+                'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
+                'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+                {
+                    from_name: formData.name,
+                    from_email: formData.email,
+                    message: formData.message,
+                    to_name: 'Dilmurod Yusupov',
+                }
+            )
 
             setStatus('success')
             setFormData({ name: '', email: '', message: '' })
